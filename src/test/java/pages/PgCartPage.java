@@ -15,6 +15,7 @@ public class PgCartPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	//Add item to cart
 	public void SetAddItemToCart() {
 		addtoCartBtn.click();
 	}
